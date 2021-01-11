@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/station"
+
+            android:title="Search station" />
+        <item
+            android:id="@+id/Sche"
+
+            android:title="Timing Schedule" />
+        <item
+            android:id="@+id/Help"
+
+            android:title="Helpline" />
+        <item
+            android:id="@+id/set"
+
+            android:title="Settings" />
+        <item android:id="@+id/Logout"
+            android:title="Logout"/>
+    </group>
+
+    <item android:title="Support us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
